@@ -16,13 +16,16 @@ public class JavaPrecedenceExample {
        // System.out.println("Output::"+x+y); //Output::5+2 //Output::52
        // System.out.println("Output::"+x*y); // "Output::"+ 10 //Output::10
 
+
       //  int x=4, y=5, z=2;
        // System.out.println(++x + --y /z); //(++x) + (--y)/z = 5+4/2 = 5+2 = 7
         // System.out.println(x-++x + --y); // x- (++x) + (--y) = 4-5+4 = (4-5)+4 = -1+4 = 3
        // System.out.println(x+ --y-++z); // x + (--y)-(++z) = 4 + 4 - 3 = 8-3 =5
        // System.out.println(x+ y++ * ++z); // x + (y++) * (++z)  = 4 + (5 * 3) = 4+15 = 19
+       //  System.out.println(x+ ++x + --y + x++ + y++); // 4+5+4+5+4 = 22
 
-        boolean a = false, b=false, c=true;
-        System.out.println(a==b==c); // (false==false)==true == true ==true = true
+        //boolean a = false, b=false, c=true;
+       // System.out.println(a==b==c); // (false==false)==true == true ==true = true
+
     }
 }
